@@ -8,3 +8,4 @@
 ## Steps to execute the example
 1. Compile the example_file_name.cu in the root directory by executing command: nvcc example_file_name.cu -o compiled_example_file_name in the root directory
 2. Run the compiled_example_file_name by executing command: ./compiled_example_file_name in the root directory
+3. (Optional) Run cuda profiler by executing command: nvprof ./compiled_example_file_name in the root directory
